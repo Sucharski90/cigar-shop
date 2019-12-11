@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Sucharski90/cigar-shop/static/css/main.d0351c14.chunk.css",
-    "main.js": "/Sucharski90/cigar-shop/static/js/main.2fc8fc78.chunk.js",
-    "main.js.map": "/Sucharski90/cigar-shop/static/js/main.2fc8fc78.chunk.js.map",
-    "runtime-main.js": "/Sucharski90/cigar-shop/static/js/runtime-main.78b59246.js",
-    "runtime-main.js.map": "/Sucharski90/cigar-shop/static/js/runtime-main.78b59246.js.map",
-    "static/css/2.17e5ed98.chunk.css": "/Sucharski90/cigar-shop/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.ad73ed71.chunk.js": "/Sucharski90/cigar-shop/static/js/2.ad73ed71.chunk.js",
-    "static/js/2.ad73ed71.chunk.js.map": "/Sucharski90/cigar-shop/static/js/2.ad73ed71.chunk.js.map",
-    "index.html": "/Sucharski90/cigar-shop/index.html",
-    "precache-manifest.7a02f697c7a5b90b532ea7542dc14acf.js": "/Sucharski90/cigar-shop/precache-manifest.7a02f697c7a5b90b532ea7542dc14acf.js",
-    "service-worker.js": "/Sucharski90/cigar-shop/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "/Sucharski90/cigar-shop/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.d0351c14.chunk.css.map": "/Sucharski90/cigar-shop/static/css/main.d0351c14.chunk.css.map",
-    "static/js/2.ad73ed71.chunk.js.LICENSE": "/Sucharski90/cigar-shop/static/js/2.ad73ed71.chunk.js.LICENSE"
+    "main.css": "/cigar-shop/cart/static/css/main.d0351c14.chunk.css",
+    "main.js": "/cigar-shop/cart/static/js/main.368cc56f.chunk.js",
+    "main.js.map": "/cigar-shop/cart/static/js/main.368cc56f.chunk.js.map",
+    "runtime-main.js": "/cigar-shop/cart/static/js/runtime-main.07fadb83.js",
+    "runtime-main.js.map": "/cigar-shop/cart/static/js/runtime-main.07fadb83.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/cigar-shop/cart/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.dfda4df0.chunk.js": "/cigar-shop/cart/static/js/2.dfda4df0.chunk.js",
+    "static/js/2.dfda4df0.chunk.js.map": "/cigar-shop/cart/static/js/2.dfda4df0.chunk.js.map",
+    "index.html": "/cigar-shop/cart/index.html",
+    "precache-manifest.b10d05c92d1074063130493ddff363c3.js": "/cigar-shop/cart/precache-manifest.b10d05c92d1074063130493ddff363c3.js",
+    "service-worker.js": "/cigar-shop/cart/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/cigar-shop/cart/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d0351c14.chunk.css.map": "/cigar-shop/cart/static/css/main.d0351c14.chunk.css.map",
+    "static/js/2.dfda4df0.chunk.js.LICENSE": "/cigar-shop/cart/static/js/2.dfda4df0.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.78b59246.js",
+    "static/js/runtime-main.07fadb83.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.ad73ed71.chunk.js",
+    "static/js/2.dfda4df0.chunk.js",
     "static/css/main.d0351c14.chunk.css",
-    "static/js/main.2fc8fc78.chunk.js"
+    "static/js/main.368cc56f.chunk.js"
   ]
 }
