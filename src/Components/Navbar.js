@@ -12,7 +12,7 @@ export default class Navbar extends Component {
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to="{process.env.PUBLIC_URL + '/'}" className="nav-link">
+            <Link to="/cigar-shop" className="nav-link">
               Products
       </Link>
           </li>
