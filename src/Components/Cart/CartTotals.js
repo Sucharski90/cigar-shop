@@ -11,7 +11,9 @@ export default function CartTotals({value}) {
                         <Link to="/">
                             <div className="btn btn-outline-danger text-uppercase mb-3 px-5" type="button" 
                             onClick={() => clearCart()}>
+                              <Link to="/cart">
                                 clear cart
+                                </Link>
                             </div>
                         </Link>
                         <h5>
