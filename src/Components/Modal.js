@@ -24,7 +24,7 @@ export default class Modal extends Component {
                                         <img src={img} className="img-fluid" alt="product" />
                                         <h5>{title}</h5>
                                         <h4 className="text-muted">price : $ {price}</h4>
-                                        <Link to="/">
+                                        <Link to={process.env.PUBLIC_URL + '/'}>
                                             <ButtonContainer onClick={() =>{closeModal()}}>
                                                 Continue shopping
                                             </ButtonContainer>

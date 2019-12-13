@@ -7,12 +7,12 @@ export default class Navbar extends Component {
   render() {
     return (
       <NavWrapper className="navbar navber-expand-sm navbar-dark px-sm-5">
-        <Link to='/'>
+        <Link to={process.env.PUBLIC_URL + '/'}>
           <i className="fas fa-joint navbar-brand"></i>
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-            <Link to='/' className="nav-link">
+            <Link to={process.env.PUBLIC_URL + '/'} className="nav-link">
               Products
       </Link>
           </li>
