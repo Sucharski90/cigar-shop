@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93e085099b92b3843b1164a99148bc20",
+    "revision": "18694d3bc062cb41fea14684776fb316",
     "url": "/cigar-shop/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cigar-shop/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "35c2277308917634ed75",
+    "revision": "ab82ffb61be522143926",
     "url": "/cigar-shop/static/css/main.d0351c14.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cigar-shop/static/js/2.c81476de.chunk.js.LICENSE"
   },
   {
-    "revision": "35c2277308917634ed75",
-    "url": "/cigar-shop/static/js/main.d3e595be.chunk.js"
+    "revision": "ab82ffb61be522143926",
+    "url": "/cigar-shop/static/js/main.19b25b9e.chunk.js"
   },
   {
     "revision": "7fb11b1df124d7a99cc0",
