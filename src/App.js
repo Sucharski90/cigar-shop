@@ -16,8 +16,8 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={ProductList} />
-          <Route path={process.env.PUBLIC_URL + '/details'} component={Details} />
-          <Route path={process.env.PUBLIC_URL + '/cart'} component={Cart} />
+          <Route path='/details' component={Details} />
+          <Route path='/cart' component={Cart} />
           <Route component={Default} />
         </Switch>
         <Modal />
