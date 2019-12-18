@@ -6,14 +6,12 @@ import {ButtonContainer} from './Button'
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar navber-expand-sm navbar-dark px-sm-5">
-        <Link exact to="/cigar-shop">
-          <i className="fas fa-joint navbar-brand"></i>
-        </Link>
+      <NavWrapper className="navbar fixed-top navber-expand-sm navbar-dark px-sm-5">
+        
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link exact to="/cigar-shop" className="nav-link">
-              Products
+              Shop
       </Link>
           </li>
         </ul>

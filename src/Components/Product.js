@@ -8,7 +8,7 @@ export default class Product extends Component {
     render() {
         const { id, title, img, price, inCart } = this.props.product;
         return (
-            <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
+            <ProductWrapper className="col-9  col-md-6 col-lg-4 my-3">
                 <div className="card">
                     <ProductConsumer>
                         {(value) => (
@@ -22,7 +22,7 @@ export default class Product extends Component {
                                     value.addToCart(id);
                                     value.openModal(id);
                                     }}>
-                                    {inCart ? (<p className="text-capitalize mb-0" disabled>in cart</p>) : (<i className="fas fa-cart-plus" />)}
+                                    {inCart ? (<p className="text-capitalize mb-0" disabled>in cart</p>) : (<i className="fas fa-info" />)}
                                 </button>
                             </div>
                         )}
@@ -57,10 +57,13 @@ const ProductWrapper = styled.div`
 .card{
     border-color:transparent;
     transition: all 0.5s linear;
-    height: 300px;
+    height: 400px;
+    -webkit-box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
+    box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
+}
 }
 .card-footer{
-    background: transparent;
+    background: #000000;
     border-top: transparent;
     transition: all 0.5s linear;
 }
@@ -71,33 +74,33 @@ const ProductWrapper = styled.div`
     }
     .card-footer{
         background:rgba(247,247,247);
+        color: #000000;
     }
 }
 .img-container{
     position:relative;
     overflow:hidden;
+    
 }
 .card-img-top{
     transition: all 0.5s linear;
 }
-.img-container:hover .card-img-top{
-    transform:scale(1.2);
-}
+
 .cart-btn{
     position: absolute;
-    bottom:0;
-    right:0;padding:0.2rem 0.4rem;
+    bottom: 40px;
+    left: -40px;
+    padding:0.2rem 0.4rem;
     background: var(--lightBlue);
     border: none;
     color: var(--mainWhite);
     font-size:1.4rem;
-    border-radius:0.5rem 0 0 0;
     transform:translate(100%,100%)
 }
-.img-container:hover .cart-btn{
+${'' /* .img-container:hover .cart-btn{
     transform:translate(0,0);
     transition: all 0.5s linear;
-}
+} */}
 .cart-btn:hover{
     color:var(--mainBlue);
     cursor:pointer;
