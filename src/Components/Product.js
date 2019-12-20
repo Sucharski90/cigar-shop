@@ -8,7 +8,7 @@ export default class Product extends Component {
     render() {
         const { id, title, img, price, inCart } = this.props.product;
         return (
-            <ProductWrapper className="col-9  col-md-6 col-lg-4 my-3">
+            <ProductWrapper className="col-9  col-md-6 col-lg-4 my-3 floated">
                 <div className="card">
                     <ProductConsumer>
                         {(value) => (
@@ -57,7 +57,7 @@ const ProductWrapper = styled.div`
 .card{
     border-color:transparent;
     transition: all 0.5s linear;
-    height: 400px;
+    height: 295px;
     -webkit-box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
     box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
 }

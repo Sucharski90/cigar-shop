@@ -7,7 +7,8 @@ import ProductList from "./Components/ProductList";
 import Details from "./Components/Details";
 import Cart from "./Components/Cart";
 import Default from "./Components/Default";
-import Modal from "./Components/Modal"
+import Modal from "./Components/Modal";
+import Footer from "./Components/Footer"
 
 class App extends Component {
   render(){
@@ -21,6 +22,7 @@ class App extends Component {
           <Route component={Default} />
         </Switch>
         <Modal />
+        <Footer />
       </React.Fragment>
     );
   }
