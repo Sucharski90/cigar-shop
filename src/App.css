@@ -58,3 +58,12 @@ background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(121,9,9,1) 50%, rgba
   height: 400px;
   overflow: scroll;
 }
+
+@media only screen and (max-width: 767px) {
+  .col-9 {
+    max-width: 100% !important;
+}
+#twitter-widget-0{
+  width: 100% !important;
+}
+}
