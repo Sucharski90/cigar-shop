@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cigar-shop/precache-manifest.f222776b46177be94b90e6943988770f.js"
+  "/cigar-shop/precache-manifest.41b705fc286edf43e2de46e805a78b5f.js"
 );
 
 self.addEventListener('message', (event) => {
