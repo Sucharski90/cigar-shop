@@ -89,7 +89,7 @@ const ProductWrapper = styled.div`
 .cart-btn{
     position: absolute;
     bottom: 40px;
-    left: -40px;
+    left: -20px;
     padding:0.2rem 0.4rem;
     background: var(--lightBlue);
     border: none;
@@ -97,10 +97,7 @@ const ProductWrapper = styled.div`
     font-size:1.4rem;
     transform:translate(100%,100%)
 }
-${'' /* .img-container:hover .cart-btn{
-    transform:translate(0,0);
-    transition: all 0.5s linear;
-} */}
+
 .cart-btn:hover{
     color:var(--mainBlue);
     cursor:pointer;
