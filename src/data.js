@@ -19,7 +19,7 @@ export const storeProducts = [
       price: 129.99,
       company: "AJ Fernandez",
       info:
-        "",
+      "Acid Kuba Kuba cigars were the first among the Acid cigars to be embraced by cigar smokers across the country. Although a bear hug would probably be more like it: THE standard-bearer for far-from-ordinary smokes, it's Kuba Kuba that's led the charge as the top choice among infused cigars. Handmade in one size, a plump 5 x 54 Robusto rolled in a dark, oily and virtually seamless Indonesian Sumatra wrapper, this hour-plus smoke comes with all the bona fides. Brimming with sweet, head-turning aromas and rich Nicaraguan spice, Kuba Kuba's ultra-smooth smoke has a unique taste and aroma. Then Drew Estate one-ups the game, imparting big flavor and bigger aroma to Drew Estates' finest filler tobaccos via a sweet, botanical concoction derived from a mix of over 140 herbs and essential oils.",
       inCart: false,
       count: 0,
       total: 0
@@ -31,7 +31,7 @@ export const storeProducts = [
       price: 99,
       company: "AJ Fernandez",
       info:
-        "",
+      "Acid Kuba Kuba cigars were the first among the Acid cigars to be embraced by cigar smokers across the country. Although a bear hug would probably be more like it: THE standard-bearer for far-from-ordinary smokes, it's Kuba Kuba that's led the charge as the top choice among infused cigars. Handmade in one size, a plump 5 x 54 Robusto rolled in a dark, oily and virtually seamless Indonesian Sumatra wrapper, this hour-plus smoke comes with all the bona fides. Brimming with sweet, head-turning aromas and rich Nicaraguan spice, Kuba Kuba's ultra-smooth smoke has a unique taste and aroma. Then Drew Estate one-ups the game, imparting big flavor and bigger aroma to Drew Estates' finest filler tobaccos via a sweet, botanical concoction derived from a mix of over 140 herbs and essential oils.",
       inCart: false,
       count: 0,
       total: 0
@@ -91,7 +91,7 @@ export const storeProducts = [
       price: 200,
       company: "ASYLUM",
       info:
-        "",
+      "Acid Kuba Kuba cigars were the first among the Acid cigars to be embraced by cigar smokers across the country. Although a bear hug would probably be more like it: THE standard-bearer for far-from-ordinary smokes, it's Kuba Kuba that's led the charge as the top choice among infused cigars. Handmade in one size, a plump 5 x 54 Robusto rolled in a dark, oily and virtually seamless Indonesian Sumatra wrapper, this hour-plus smoke comes with all the bona fides. Brimming with sweet, head-turning aromas and rich Nicaraguan spice, Kuba Kuba's ultra-smooth smoke has a unique taste and aroma. Then Drew Estate one-ups the game, imparting big flavor and bigger aroma to Drew Estates' finest filler tobaccos via a sweet, botanical concoction derived from a mix of over 140 herbs and essential oils.",
       inCart: false,
       count: 0,
       total: 0

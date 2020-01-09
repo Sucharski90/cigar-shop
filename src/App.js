@@ -8,6 +8,7 @@ import Details from "./Components/Details";
 import Cart from "./Components/Cart";
 import Default from "./Components/Default";
 import Modal from "./Components/Modal";
+import Faq from "./Components/Faq"
 import Footer from "./Components/Footer"
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route exact path={process.env.PUBLIC_URL + '/'} component={ProductList} />
           <Route path='/details' component={Details} />
           <Route path='/cart' component={Cart} />
+          <Route path='/faq' component={Faq} />
           <Route component={Default} />
         </Switch>
         <Modal />
