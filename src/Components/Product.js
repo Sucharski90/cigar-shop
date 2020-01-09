@@ -58,8 +58,8 @@ const ProductWrapper = styled.div`
     border-color:transparent;
     transition: all 0.5s linear;
     height: 295px;
-    -webkit-box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
-    box-shadow: 5px 5px 16px 5px rgb(233, 63, 51);
+    -webkit-box-shadow: 5px 5px 16px 5px rgb(117, 117, 117);
+    box-shadow: 5px 5px 16px 5px rgb(117, 117, 117);
 }
 }
 .card-footer{
