@@ -2,13 +2,12 @@
   --mainBlue: rgb(133, 51, 4);
   --lightBlue: rgb(184, 176, 168);
   --mainWhite: rgb(26, 5, 5);
-  --mainDark: rgb(216, 216, 216);
+  --mainDark: rgb(97, 96, 96);
   --mainBrown: rgb(114, 52, 27);
   --transition: all 1s linear;
 }
 body{
-  background: rgb(36,0,5);
-background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(121,9,9,1) 50%, rgba(255,0,0,1) 100%);
+background: rgb(190, 190, 190);
   color: var(--mainDark) !important;
 }
 .text-title{
@@ -21,9 +20,7 @@ background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(121,9,9,1) 50%, rgba
 .text-bright{
   color: var(--lightBlue);
 }
-.btn{
-  color: white !important;
-}
+
 .btn-black{
   background: transparent;
   text-transform: capitalize;
@@ -61,11 +58,10 @@ background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(121,9,9,1) 50%, rgba
   height: 400px;
   overflow: scroll;
 }
-/* .lead {
+ .lead {
   font-size: 1.5rem;
   font-weight: 600 !important;
-} */
-
+ }
 @media only screen and (max-width: 767px) {
   .col-9 {
     max-width: 100% !important;
