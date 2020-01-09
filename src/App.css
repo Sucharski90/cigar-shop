@@ -61,10 +61,10 @@ background: linear-gradient(180deg, rgba(36,0,5,1) 0%, rgba(121,9,9,1) 50%, rgba
   height: 400px;
   overflow: scroll;
 }
-.lead {
+/* .lead {
   font-size: 1.5rem;
   font-weight: 600 !important;
-}
+} */
 
 @media only screen and (max-width: 767px) {
   .col-9 {
