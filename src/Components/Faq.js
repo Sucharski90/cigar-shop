@@ -12,7 +12,7 @@ export default class Faq extends Component {
   <Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="0">
-        Click me!
+        What is a cigar
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="0">
@@ -22,10 +22,50 @@ export default class Faq extends Component {
   <Card>
     <Card.Header>
       <Accordion.Toggle as={Button} variant="link" eventKey="1">
-        Click me!
+        Types of cigars
       </Accordion.Toggle>
     </Card.Header>
     <Accordion.Collapse eventKey="1">
+      <Card.Body>Hello! I'm another body</Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="2">
+        Types of wrappers
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="2">
+      <Card.Body>Hello! I'm another body</Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="3">
+        How to cut a cigar
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="3">
+      <Card.Body>Hello! I'm another body</Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="4">
+        How to light a cigar
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="4">
+      <Card.Body>Hello! I'm another body</Card.Body>
+    </Accordion.Collapse>
+  </Card>
+  <Card>
+    <Card.Header>
+      <Accordion.Toggle as={Button} variant="link" eventKey="5">
+        How to enjoy a cigar
+      </Accordion.Toggle>
+    </Card.Header>
+    <Accordion.Collapse eventKey="5">
       <Card.Body>Hello! I'm another body</Card.Body>
     </Accordion.Collapse>
   </Card>
