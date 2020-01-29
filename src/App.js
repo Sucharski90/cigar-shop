@@ -15,6 +15,8 @@ class App extends Component {
   render(){
     return (
       <React.Fragment>
+            <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e30c93cacf08500124e18d0&product=sticky-share-buttons&cms=sop' async='async'></script>
+
         <Navbar />
         <Switch>
           <Route exact path={process.env.PUBLIC_URL + '/'} component={ProductList} />

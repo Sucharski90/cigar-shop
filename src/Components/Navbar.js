@@ -7,7 +7,6 @@ export default class Navbar extends Component {
   render() {
     return (
       <NavWrapper className="navbar fixed-top navber-expand-sm navbar-dark px-sm-5">
-      <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e30c93cacf08500124e18d0&product=sticky-share-buttons&cms=sop' async='async'></script>
         
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
