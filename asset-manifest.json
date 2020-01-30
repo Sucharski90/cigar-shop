@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/cigar-shop/static/css/main.b3012846.chunk.css",
-    "main.js": "/cigar-shop/static/js/main.6b22fe41.chunk.js",
-    "main.js.map": "/cigar-shop/static/js/main.6b22fe41.chunk.js.map",
+    "main.js": "/cigar-shop/static/js/main.f1000bea.chunk.js",
+    "main.js.map": "/cigar-shop/static/js/main.f1000bea.chunk.js.map",
     "runtime-main.js": "/cigar-shop/static/js/runtime-main.ecdeade9.js",
     "runtime-main.js.map": "/cigar-shop/static/js/runtime-main.ecdeade9.js.map",
     "static/css/2.17e5ed98.chunk.css": "/cigar-shop/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.8d66ac88.chunk.js": "/cigar-shop/static/js/2.8d66ac88.chunk.js",
-    "static/js/2.8d66ac88.chunk.js.map": "/cigar-shop/static/js/2.8d66ac88.chunk.js.map",
+    "static/js/2.29bc7a8f.chunk.js": "/cigar-shop/static/js/2.29bc7a8f.chunk.js",
+    "static/js/2.29bc7a8f.chunk.js.map": "/cigar-shop/static/js/2.29bc7a8f.chunk.js.map",
     "index.html": "/cigar-shop/index.html",
-    "precache-manifest.e00800e9c04fa877e13df6e3d962b095.js": "/cigar-shop/precache-manifest.e00800e9c04fa877e13df6e3d962b095.js",
+    "precache-manifest.17d9e0d0459e60d707f20116249ebecb.js": "/cigar-shop/precache-manifest.17d9e0d0459e60d707f20116249ebecb.js",
     "service-worker.js": "/cigar-shop/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/cigar-shop/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.b3012846.chunk.css.map": "/cigar-shop/static/css/main.b3012846.chunk.css.map",
-    "static/js/2.8d66ac88.chunk.js.LICENSE": "/cigar-shop/static/js/2.8d66ac88.chunk.js.LICENSE"
+    "static/js/2.29bc7a8f.chunk.js.LICENSE": "/cigar-shop/static/js/2.29bc7a8f.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.ecdeade9.js",
     "static/css/2.17e5ed98.chunk.css",
-    "static/js/2.8d66ac88.chunk.js",
+    "static/js/2.29bc7a8f.chunk.js",
     "static/css/main.b3012846.chunk.css",
-    "static/js/main.6b22fe41.chunk.js"
+    "static/js/main.f1000bea.chunk.js"
   ]
 }
