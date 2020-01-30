@@ -6,8 +6,8 @@ import {ButtonContainer} from './Button'
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar fixed-top navber-expand-sm navbar-dark px-sm-5">
-        
+      <NavWrapper className="navbar fixed-top navber-expand-md navbar-dark px-sm-5">
+        <div className="container">
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link  to="/cigar-shop" className="nav-link">
@@ -31,6 +31,8 @@ export default class Navbar extends Component {
             </span>
           </ButtonContainer>
         </Link>
+        </div>
+        
       </NavWrapper>
     )
   }
@@ -42,6 +44,5 @@ background: var(--mainBlue);
   color: var(--mainWhite) !important;
   font-size:1.3rem;
   text-transform: capitalize;
-
 }
 `
