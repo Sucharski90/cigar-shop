@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import {ButtonContainer} from './Button' 
+import {ButtonContainer} from './Button';
+
 
 export default class Navbar extends Component {
   render() {
     return (
-      <NavWrapper className="navbar fixed-top navber-expand-md navbar-dark px-sm-5">
+      <NavWrapper className="navbar fixed-top navber-expand-md">
         <div className="container">
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
