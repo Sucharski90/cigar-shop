@@ -2,23 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
+import {
+  Nav,
+} from "react-bootstrap";
 
 
-export default class Navbar extends Component {
+export default class Bar extends Component {
   render() {
     return (
       <NavWrapper className="navbar fixed-top navber-expand-md">
-        <div className="container">
-        <ul className="navbar-nav align-items-center">
-          <li className="nav-item ml-5">
-            <Link  to="/cigar-shop" className="nav-link">
+       <Link  to="/cigar-shop" className="">
             <ButtonContainer>
               Shop
               </ButtonContainer>
       </Link>
-          </li>
-        </ul>
-        <Link to="/faq" className="">
+
+
+  
+    <Nav className="">
+      <Link to="/faq" className="">
           <ButtonContainer>
             <span className="">
               FAQ
@@ -32,7 +34,8 @@ export default class Navbar extends Component {
             </span>
           </ButtonContainer>
         </Link>
-        </div>
+      
+    </Nav>
         
       </NavWrapper>
     )
@@ -47,3 +50,4 @@ background: var(--mainBlue);
   text-transform: capitalize;
 }
 `
+
