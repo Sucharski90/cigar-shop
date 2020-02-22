@@ -27,7 +27,6 @@ background: #ffffff;
   font-size: 0.8rem !important;
   color:var(--mainDark);
   border-radius: 0 !important;
-  border: 0.1rem solid var(--mainDark) !important;
 }
 .btn-black:hover{
   background: var(--mainDark) !important;
@@ -74,12 +73,21 @@ section.cart-page {
   margin-top: 120px;
   margin-bottom: 100px;
 }
-
+.increase-decrease .btn {
+  padding: 0 !important;
+}
+.img-fluid {
+  height: auto;
+  width: 100%;
+}
 @media only screen and (max-width: 767px) {
   .col-9 {
     max-width: 100% !important;
 }
 #twitter-widget-0{
   width: 100% !important;
+}
+.card {
+  height: auto;
 }
 }

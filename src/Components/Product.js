@@ -102,4 +102,9 @@ const ProductWrapper = styled.div`
     color:var(--mainBlue);
     cursor:pointer;
 }
+@media only screen and (max-width: 767px) {
+.card {
+  height: auto;
+}
+}
 `

@@ -7,24 +7,14 @@ export default class Navbar extends Component {
             <FooterWrapper>
                 <footer>
                     <div className="container">
-                        <div className="row">
-                            <div className="col-sm-4">
+                        <div className="row pt-5">
+                            <div className="col-sm-6">
                                 Copyright &copy; Cigar Shop
               </div>
-                            <div className="col-sm-4">
-                                <ul>
-                                    <li>Cigar Shop</li>
-                                    <li>Address: 29 West Street NY</li>
-                                    <li>Phone: (516) 282 - 6084 </li>
-                                </ul>
-                            </div>
-                            <div className="col-sm-4">
-                                <h4>FAQ</h4>
-                                <ul>
-                                    <li>Types of Cigars</li>
-                                    <li>How to light a cigar</li>
-                                    <li>How to cut a cigar</li>
-                                </ul>
+                            <div className="col-sm-6">
+                                    <p>Cigar Shop</p>
+                                    <p>Address: 29 West Street NY</p>
+                                    <p>Phone: (516) 282 - 6084 </p>
                             </div>
                         </div>
                     </div>

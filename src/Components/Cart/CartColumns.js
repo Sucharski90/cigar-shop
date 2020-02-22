@@ -21,10 +21,6 @@ export default function CartColumns() {
                 </div>
 
                 <div className="col-10 mx-auto col-lg-2">
-                    <p className="text-uppercase">remove</p>
-                </div>
-
-                <div className="col-10 mx-auto col-lg-2">
                     <p className="text-uppercase">total</p>
                 </div>
             </div>
